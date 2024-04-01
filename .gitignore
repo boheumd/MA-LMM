@@ -32,7 +32,6 @@ temp*
 scripts*
 saved_model*
 run_scripts_full/
-annotation/
 *.tar
 
 # PyInstaller
@@ -164,4 +163,4 @@ debug*/
 
 cache/
 llm
-data
+dataset

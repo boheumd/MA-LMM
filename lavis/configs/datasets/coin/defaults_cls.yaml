@@ -17,5 +17,8 @@ datasets:
         val:
           url:  coin/annotation/COIN.json
           storage:  coin/annotation/COIN.json
+        test:
+          url:  coin/annotation/COIN.json
+          storage:  coin/annotation/COIN.json
       videos:
         storage: coin/frames

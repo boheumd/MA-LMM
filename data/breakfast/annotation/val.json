@@ -1,0 +1,2132 @@
+{
+    "P47-cam01-P47_cereals": {
+        "duration": 46,
+        "frame_length": 452,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P47-cam01-P47_coffee": {
+        "duration": 44,
+        "frame_length": 432,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P47-cam01-P47_friedegg": {
+        "duration": 160,
+        "frame_length": 1591,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P47-cam01-P47_juice": {
+        "duration": 85,
+        "frame_length": 841,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P47-cam01-P47_milk": {
+        "duration": 67,
+        "frame_length": 662,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P47-cam01-P47_pancake": {
+        "duration": 359,
+        "frame_length": 3583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P47-cam01-P47_salat": {
+        "duration": 269,
+        "frame_length": 2688,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P47-cam01-P47_sandwich": {
+        "duration": 87,
+        "frame_length": 863,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P47-cam01-P47_scrambledegg": {
+        "duration": 285,
+        "frame_length": 2844,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P47-cam01-P47_tea": {
+        "duration": 33,
+        "frame_length": 327,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P47-webcam01-P47_cereals": {
+        "duration": 46,
+        "frame_length": 452,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P47-webcam01-P47_coffee": {
+        "duration": 44,
+        "frame_length": 431,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P47-webcam01-P47_friedegg": {
+        "duration": 160,
+        "frame_length": 1592,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P47-webcam01-P47_juice": {
+        "duration": 85,
+        "frame_length": 841,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P47-webcam01-P47_milk": {
+        "duration": 67,
+        "frame_length": 662,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P47-webcam01-P47_pancake": {
+        "duration": 359,
+        "frame_length": 3583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P47-webcam01-P47_salat": {
+        "duration": 269,
+        "frame_length": 2688,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P47-webcam01-P47_sandwich": {
+        "duration": 87,
+        "frame_length": 863,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P47-webcam01-P47_tea": {
+        "duration": 33,
+        "frame_length": 328,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P47-cam02-P47_cereals": {
+        "duration": 46,
+        "frame_length": 452,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P47-cam02-P47_coffee": {
+        "duration": 44,
+        "frame_length": 431,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P47-cam02-P47_friedegg": {
+        "duration": 160,
+        "frame_length": 1592,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P47-cam02-P47_juice": {
+        "duration": 85,
+        "frame_length": 841,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P47-cam02-P47_milk": {
+        "duration": 67,
+        "frame_length": 662,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P47-cam02-P47_pancake": {
+        "duration": 359,
+        "frame_length": 3583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P47-cam02-P47_salat": {
+        "duration": 269,
+        "frame_length": 2690,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P47-cam02-P47_sandwich": {
+        "duration": 87,
+        "frame_length": 863,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P47-cam02-P47_scrambledegg": {
+        "duration": 285,
+        "frame_length": 2844,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P47-cam02-P47_tea": {
+        "duration": 33,
+        "frame_length": 327,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P47-stereo-P47_cereals_ch0": {
+        "duration": 46,
+        "frame_length": 452,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P47-stereo-P47_tea_ch0": {
+        "duration": 33,
+        "frame_length": 327,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P47-webcam02-P47_cereals": {
+        "duration": 46,
+        "frame_length": 454,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P47-webcam02-P47_coffee": {
+        "duration": 44,
+        "frame_length": 431,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P47-webcam02-P47_friedegg": {
+        "duration": 160,
+        "frame_length": 1591,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P47-webcam02-P47_juice": {
+        "duration": 85,
+        "frame_length": 841,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P47-webcam02-P47_milk": {
+        "duration": 67,
+        "frame_length": 662,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P47-webcam02-P47_pancake": {
+        "duration": 359,
+        "frame_length": 3583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P47-webcam02-P47_salat": {
+        "duration": 269,
+        "frame_length": 2688,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P47-webcam02-P47_sandwich": {
+        "duration": 87,
+        "frame_length": 863,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P47-webcam02-P47_scrambledegg": {
+        "duration": 285,
+        "frame_length": 2844,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P47-webcam02-P47_tea": {
+        "duration": 33,
+        "frame_length": 328,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P48-cam01-P48_cereals": {
+        "duration": 50,
+        "frame_length": 494,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P48-cam01-P48_friedegg": {
+        "duration": 207,
+        "frame_length": 2063,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P48-cam01-P48_juice": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P48-cam01-P48_milk": {
+        "duration": 54,
+        "frame_length": 532,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P48-cam01-P48_pancake": {
+        "duration": 270,
+        "frame_length": 2694,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P48-cam01-P48_salat": {
+        "duration": 364,
+        "frame_length": 3632,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P48-cam01-P48_sandwich": {
+        "duration": 125,
+        "frame_length": 1243,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P48-cam01-P48_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2312,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P48-cam01-P48_tea": {
+        "duration": 39,
+        "frame_length": 381,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P48-webcam01-P48_cereals": {
+        "duration": 50,
+        "frame_length": 494,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P48-webcam01-P48_coffee": {
+        "duration": 19,
+        "frame_length": 186,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P48-webcam01-P48_friedegg": {
+        "duration": 207,
+        "frame_length": 2063,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P48-webcam01-P48_juice": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P48-webcam01-P48_milk": {
+        "duration": 54,
+        "frame_length": 532,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P48-webcam01-P48_pancake": {
+        "duration": 270,
+        "frame_length": 2693,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P48-webcam01-P48_salat": {
+        "duration": 364,
+        "frame_length": 3632,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P48-webcam01-P48_sandwich": {
+        "duration": 125,
+        "frame_length": 1244,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P48-webcam01-P48_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2310,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P48-webcam01-P48_tea": {
+        "duration": 39,
+        "frame_length": 381,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P48-cam02-P48_cereals": {
+        "duration": 50,
+        "frame_length": 494,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P48-cam02-P48_coffee": {
+        "duration": 19,
+        "frame_length": 186,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P48-cam02-P48_friedegg": {
+        "duration": 207,
+        "frame_length": 2063,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P48-cam02-P48_juice": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P48-cam02-P48_milk": {
+        "duration": 54,
+        "frame_length": 532,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P48-cam02-P48_pancake": {
+        "duration": 270,
+        "frame_length": 2693,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P48-cam02-P48_salat": {
+        "duration": 364,
+        "frame_length": 3632,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P48-cam02-P48_sandwich": {
+        "duration": 125,
+        "frame_length": 1243,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P48-cam02-P48_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2310,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P48-cam02-P48_tea": {
+        "duration": 39,
+        "frame_length": 381,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P48-stereo-P48_cereals_ch0": {
+        "duration": 50,
+        "frame_length": 494,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P48-stereo-P48_coffee_ch0": {
+        "duration": 19,
+        "frame_length": 186,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P48-stereo-P48_milk_ch0": {
+        "duration": 54,
+        "frame_length": 532,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P48-webcam02-P48_cereals": {
+        "duration": 50,
+        "frame_length": 494,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P48-webcam02-P48_coffee": {
+        "duration": 19,
+        "frame_length": 186,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P48-webcam02-P48_friedegg": {
+        "duration": 207,
+        "frame_length": 2063,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P48-webcam02-P48_juice": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P48-webcam02-P48_milk": {
+        "duration": 54,
+        "frame_length": 532,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P48-webcam02-P48_pancake": {
+        "duration": 270,
+        "frame_length": 2693,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P48-webcam02-P48_salat": {
+        "duration": 364,
+        "frame_length": 3632,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P48-webcam02-P48_sandwich": {
+        "duration": 125,
+        "frame_length": 1243,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P48-webcam02-P48_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2310,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P48-webcam02-P48_tea": {
+        "duration": 39,
+        "frame_length": 381,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P49-cam01-P49_cereals": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P49-cam01-P49_coffee": {
+        "duration": 21,
+        "frame_length": 203,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P49-cam01-P49_friedegg": {
+        "duration": 346,
+        "frame_length": 3452,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P49-cam01-P49_juice": {
+        "duration": 93,
+        "frame_length": 928,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P49-cam01-P49_milk": {
+        "duration": 48,
+        "frame_length": 477,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P49-cam01-P49_pancake": {
+        "duration": 425,
+        "frame_length": 4241,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P49-cam01-P49_salat": {
+        "duration": 283,
+        "frame_length": 2822,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P49-cam01-P49_sandwich": {
+        "duration": 124,
+        "frame_length": 1234,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P49-cam01-P49_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2302,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P49-cam01-P49_tea": {
+        "duration": 25,
+        "frame_length": 242,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P49-webcam01-P49_cereals": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P49-webcam01-P49_coffee": {
+        "duration": 21,
+        "frame_length": 201,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P49-webcam01-P49_friedegg": {
+        "duration": 346,
+        "frame_length": 3452,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P49-webcam01-P49_juice": {
+        "duration": 93,
+        "frame_length": 928,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P49-webcam01-P49_milk": {
+        "duration": 48,
+        "frame_length": 478,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P49-webcam01-P49_pancake": {
+        "duration": 425,
+        "frame_length": 4241,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P49-webcam01-P49_salat": {
+        "duration": 283,
+        "frame_length": 2822,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P49-webcam01-P49_sandwich": {
+        "duration": 124,
+        "frame_length": 1234,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P49-webcam01-P49_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2302,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P49-webcam01-P49_tea": {
+        "duration": 25,
+        "frame_length": 242,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P49-cam02-P49_cereals": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P49-cam02-P49_coffee": {
+        "duration": 21,
+        "frame_length": 201,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P49-cam02-P49_friedegg": {
+        "duration": 346,
+        "frame_length": 3452,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P49-cam02-P49_juice": {
+        "duration": 93,
+        "frame_length": 928,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P49-cam02-P49_pancake": {
+        "duration": 425,
+        "frame_length": 4241,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P49-cam02-P49_salat": {
+        "duration": 283,
+        "frame_length": 2822,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P49-cam02-P49_sandwich": {
+        "duration": 124,
+        "frame_length": 1234,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P49-cam02-P49_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2302,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P49-cam02-P49_tea": {
+        "duration": 25,
+        "frame_length": 242,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P49-stereo-P49_cereals_ch0": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P49-stereo-P49_coffee_ch0": {
+        "duration": 21,
+        "frame_length": 201,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P49-stereo-P49_friedegg_ch0": {
+        "duration": 346,
+        "frame_length": 3453,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P49-stereo-P49_juice_ch0": {
+        "duration": 93,
+        "frame_length": 928,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P49-stereo-P49_salat_ch0": {
+        "duration": 283,
+        "frame_length": 2822,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P49-stereo-P49_sandwich_ch0": {
+        "duration": 124,
+        "frame_length": 1234,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P49-stereo-P49_scrambledegg_ch0": {
+        "duration": 231,
+        "frame_length": 2302,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P49-stereo-P49_tea_ch0": {
+        "duration": 25,
+        "frame_length": 242,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P49-webcam02-P49_coffee": {
+        "duration": 21,
+        "frame_length": 201,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P49-webcam02-P49_friedegg": {
+        "duration": 346,
+        "frame_length": 3452,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P49-webcam02-P49_juice": {
+        "duration": 93,
+        "frame_length": 928,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P49-webcam02-P49_milk": {
+        "duration": 48,
+        "frame_length": 477,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P49-webcam02-P49_pancake": {
+        "duration": 425,
+        "frame_length": 4241,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P49-webcam02-P49_salat": {
+        "duration": 283,
+        "frame_length": 2822,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P49-webcam02-P49_sandwich": {
+        "duration": 124,
+        "frame_length": 1234,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P49-webcam02-P49_scrambledegg": {
+        "duration": 231,
+        "frame_length": 2302,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P49-webcam02-P49_tea": {
+        "duration": 25,
+        "frame_length": 242,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P50-cam01-P50_cereals": {
+        "duration": 31,
+        "frame_length": 308,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P50-cam01-P50_coffee": {
+        "duration": 47,
+        "frame_length": 463,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P50-cam01-P50_friedegg": {
+        "duration": 107,
+        "frame_length": 1068,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P50-cam01-P50_juice": {
+        "duration": 127,
+        "frame_length": 1266,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P50-cam01-P50_milk": {
+        "duration": 53,
+        "frame_length": 530,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P50-cam01-P50_pancake": {
+        "duration": 328,
+        "frame_length": 3280,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P50-cam01-P50_salat": {
+        "duration": 233,
+        "frame_length": 2328,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P50-cam01-P50_sandwich": {
+        "duration": 78,
+        "frame_length": 773,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P50-cam01-P50_scrambledegg": {
+        "duration": 107,
+        "frame_length": 1066,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P50-cam01-P50_tea": {
+        "duration": 70,
+        "frame_length": 691,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P50-webcam01-P50_cereals": {
+        "duration": 31,
+        "frame_length": 308,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P50-webcam01-P50_coffee": {
+        "duration": 47,
+        "frame_length": 463,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P50-webcam01-P50_friedegg": {
+        "duration": 107,
+        "frame_length": 1068,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P50-webcam01-P50_juice": {
+        "duration": 127,
+        "frame_length": 1266,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P50-webcam01-P50_milk": {
+        "duration": 53,
+        "frame_length": 530,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P50-webcam01-P50_pancake": {
+        "duration": 328,
+        "frame_length": 3280,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P50-webcam01-P50_salat": {
+        "duration": 233,
+        "frame_length": 2328,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P50-webcam01-P50_sandwich": {
+        "duration": 78,
+        "frame_length": 773,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P50-webcam01-P50_scrambledegg": {
+        "duration": 107,
+        "frame_length": 1066,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P50-webcam01-P50_tea": {
+        "duration": 70,
+        "frame_length": 691,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P50-cam02-P50_cereals": {
+        "duration": 31,
+        "frame_length": 308,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P50-cam02-P50_coffee": {
+        "duration": 47,
+        "frame_length": 463,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P50-cam02-P50_friedegg": {
+        "duration": 107,
+        "frame_length": 1068,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P50-cam02-P50_juice": {
+        "duration": 127,
+        "frame_length": 1266,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P50-cam02-P50_milk": {
+        "duration": 53,
+        "frame_length": 530,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P50-cam02-P50_pancake": {
+        "duration": 328,
+        "frame_length": 3280,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P50-cam02-P50_salat": {
+        "duration": 233,
+        "frame_length": 2328,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P50-cam02-P50_sandwich": {
+        "duration": 78,
+        "frame_length": 773,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P50-cam02-P50_scrambledegg": {
+        "duration": 107,
+        "frame_length": 1066,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P50-cam02-P50_tea": {
+        "duration": 70,
+        "frame_length": 691,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P50-stereo-P50_cereals_ch0": {
+        "duration": 31,
+        "frame_length": 308,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P50-stereo-P50_coffee_ch0": {
+        "duration": 47,
+        "frame_length": 463,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P50-stereo-P50_juice_ch0": {
+        "duration": 127,
+        "frame_length": 1266,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P50-stereo-P50_milk_ch0": {
+        "duration": 53,
+        "frame_length": 530,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P50-stereo-P50_pancake_ch0": {
+        "duration": 328,
+        "frame_length": 3280,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P50-stereo-P50_sandwich_ch0": {
+        "duration": 78,
+        "frame_length": 773,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P50-stereo-P50_scrambledegg_ch0": {
+        "duration": 107,
+        "frame_length": 1066,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P50-stereo-P50_tea_ch0": {
+        "duration": 70,
+        "frame_length": 691,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P50-webcam02-P50_cereals": {
+        "duration": 31,
+        "frame_length": 308,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P50-webcam02-P50_coffee": {
+        "duration": 47,
+        "frame_length": 463,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P50-webcam02-P50_friedegg": {
+        "duration": 107,
+        "frame_length": 1068,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P50-webcam02-P50_juice": {
+        "duration": 127,
+        "frame_length": 1266,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P50-webcam02-P50_milk": {
+        "duration": 53,
+        "frame_length": 530,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P50-webcam02-P50_pancake": {
+        "duration": 328,
+        "frame_length": 3280,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P50-webcam02-P50_salat": {
+        "duration": 233,
+        "frame_length": 2328,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P50-webcam02-P50_sandwich": {
+        "duration": 78,
+        "frame_length": 773,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P50-webcam02-P50_scrambledegg": {
+        "duration": 107,
+        "frame_length": 1066,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P50-webcam02-P50_tea": {
+        "duration": 70,
+        "frame_length": 691,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P51-cam01-P51_cereals": {
+        "duration": 48,
+        "frame_length": 476,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P51-cam01-P51_friedegg": {
+        "duration": 195,
+        "frame_length": 1944,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P51-cam01-P51_juice": {
+        "duration": 100,
+        "frame_length": 996,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P51-cam01-P51_milk": {
+        "duration": 88,
+        "frame_length": 876,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P51-cam01-P51_pancake": {
+        "duration": 387,
+        "frame_length": 3864,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P51-cam01-P51_salat": {
+        "duration": 229,
+        "frame_length": 2290,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P51-cam01-P51_sandwich": {
+        "duration": 63,
+        "frame_length": 622,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P51-cam01-P51_scrambledegg": {
+        "duration": 228,
+        "frame_length": 2272,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P51-cam01-P51_tea": {
+        "duration": 49,
+        "frame_length": 490,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P51-webcam01-P51_cereals": {
+        "duration": 48,
+        "frame_length": 476,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P51-webcam01-P51_coffee": {
+        "duration": 76,
+        "frame_length": 752,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P51-webcam01-P51_friedegg": {
+        "duration": 195,
+        "frame_length": 1944,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P51-webcam01-P51_juice": {
+        "duration": 100,
+        "frame_length": 996,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P51-webcam01-P51_milk": {
+        "duration": 88,
+        "frame_length": 876,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P51-webcam01-P51_pancake": {
+        "duration": 387,
+        "frame_length": 3864,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P51-webcam01-P51_salat": {
+        "duration": 229,
+        "frame_length": 2290,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P51-webcam01-P51_sandwich": {
+        "duration": 63,
+        "frame_length": 622,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P51-webcam01-P51_scrambledegg": {
+        "duration": 228,
+        "frame_length": 2272,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P51-webcam01-P51_tea": {
+        "duration": 49,
+        "frame_length": 490,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P51-cam02-P51_cereals": {
+        "duration": 48,
+        "frame_length": 476,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P51-cam02-P51_coffee": {
+        "duration": 76,
+        "frame_length": 752,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P51-cam02-P51_friedegg": {
+        "duration": 195,
+        "frame_length": 1944,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P51-cam02-P51_juice": {
+        "duration": 100,
+        "frame_length": 996,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P51-cam02-P51_milk": {
+        "duration": 88,
+        "frame_length": 877,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P51-cam02-P51_pancake": {
+        "duration": 387,
+        "frame_length": 3864,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P51-cam02-P51_salat": {
+        "duration": 229,
+        "frame_length": 2291,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P51-cam02-P51_sandwich": {
+        "duration": 63,
+        "frame_length": 622,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P51-cam02-P51_scrambledegg": {
+        "duration": 228,
+        "frame_length": 2272,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P51-cam02-P51_tea": {
+        "duration": 49,
+        "frame_length": 490,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P51-stereo-P51_cereals_ch0": {
+        "duration": 48,
+        "frame_length": 474,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P51-stereo-P51_coffee_ch0": {
+        "duration": 76,
+        "frame_length": 752,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P51-stereo-P51_juice_ch0": {
+        "duration": 100,
+        "frame_length": 996,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P51-stereo-P51_milk_ch0": {
+        "duration": 88,
+        "frame_length": 876,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P51-stereo-P51_salat_ch0": {
+        "duration": 229,
+        "frame_length": 2290,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P51-stereo-P51_sandwich_ch0": {
+        "duration": 63,
+        "frame_length": 622,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P51-stereo-P51_tea_ch0": {
+        "duration": 49,
+        "frame_length": 490,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P51-webcam02-P51_cereals": {
+        "duration": 48,
+        "frame_length": 474,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P51-webcam02-P51_coffee": {
+        "duration": 76,
+        "frame_length": 753,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P51-webcam02-P51_friedegg": {
+        "duration": 195,
+        "frame_length": 1944,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P51-webcam02-P51_juice": {
+        "duration": 100,
+        "frame_length": 996,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P51-webcam02-P51_milk": {
+        "duration": 88,
+        "frame_length": 876,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P51-webcam02-P51_pancake": {
+        "duration": 387,
+        "frame_length": 3864,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P51-webcam02-P51_salat": {
+        "duration": 229,
+        "frame_length": 2291,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P51-webcam02-P51_sandwich": {
+        "duration": 63,
+        "frame_length": 622,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P51-webcam02-P51_scrambledegg": {
+        "duration": 228,
+        "frame_length": 2272,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P51-webcam02-P51_tea": {
+        "duration": 49,
+        "frame_length": 490,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P52-cam01-P52_friedegg": {
+        "duration": 218,
+        "frame_length": 2176,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P52-cam01-P52_juice": {
+        "duration": 197,
+        "frame_length": 1968,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P52-cam01-P52_milk": {
+        "duration": 69,
+        "frame_length": 686,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P52-cam01-P52_pancake": {
+        "duration": 357,
+        "frame_length": 3569,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P52-cam01-P52_salat": {
+        "duration": 311,
+        "frame_length": 3104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P52-cam01-P52_scrambledegg": {
+        "duration": 360,
+        "frame_length": 3597,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P52-cam01-P52_tea": {
+        "duration": 63,
+        "frame_length": 628,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P52-webcam01-P52_cereals": {
+        "duration": 54,
+        "frame_length": 538,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P52-webcam01-P52_coffee": {
+        "duration": 45,
+        "frame_length": 449,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P52-webcam01-P52_friedegg": {
+        "duration": 218,
+        "frame_length": 2176,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P52-webcam01-P52_juice": {
+        "duration": 197,
+        "frame_length": 1968,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P52-webcam01-P52_milk": {
+        "duration": 69,
+        "frame_length": 686,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P52-webcam01-P52_pancake": {
+        "duration": 357,
+        "frame_length": 3569,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P52-webcam01-P52_salat": {
+        "duration": 311,
+        "frame_length": 3104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P52-webcam01-P52_sandwich": {
+        "duration": 179,
+        "frame_length": 1785,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P52-webcam01-P52_scrambledegg": {
+        "duration": 360,
+        "frame_length": 3597,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P52-webcam01-P52_tea": {
+        "duration": 63,
+        "frame_length": 628,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P52-cam02-P52_cereals": {
+        "duration": 54,
+        "frame_length": 537,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P52-cam02-P52_coffee": {
+        "duration": 45,
+        "frame_length": 449,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P52-cam02-P52_friedegg": {
+        "duration": 218,
+        "frame_length": 2176,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P52-cam02-P52_juice": {
+        "duration": 197,
+        "frame_length": 1968,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P52-cam02-P52_milk": {
+        "duration": 69,
+        "frame_length": 686,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P52-cam02-P52_pancake": {
+        "duration": 357,
+        "frame_length": 3569,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P52-cam02-P52_salat": {
+        "duration": 311,
+        "frame_length": 3104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P52-cam02-P52_scrambledegg": {
+        "duration": 360,
+        "frame_length": 3597,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P52-cam02-P52_tea": {
+        "duration": 63,
+        "frame_length": 628,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P52-stereo-P52_cereals_ch0": {
+        "duration": 54,
+        "frame_length": 537,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P52-stereo-P52_coffee_ch0": {
+        "duration": 45,
+        "frame_length": 449,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P52-stereo-P52_friedegg_ch0": {
+        "duration": 218,
+        "frame_length": 2176,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P52-stereo-P52_milk_ch0": {
+        "duration": 69,
+        "frame_length": 687,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P52-stereo-P52_pancake_ch0": {
+        "duration": 357,
+        "frame_length": 3569,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P52-stereo-P52_salat_ch0": {
+        "duration": 311,
+        "frame_length": 3104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P52-stereo-P52_sandwich_ch0": {
+        "duration": 179,
+        "frame_length": 1785,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P52-stereo-P52_scrambledegg_ch0": {
+        "duration": 360,
+        "frame_length": 3597,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P52-stereo-P52_tea_ch0": {
+        "duration": 63,
+        "frame_length": 628,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P52-webcam02-P52_cereals": {
+        "duration": 54,
+        "frame_length": 537,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P52-webcam02-P52_coffee": {
+        "duration": 45,
+        "frame_length": 449,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P52-webcam02-P52_friedegg": {
+        "duration": 218,
+        "frame_length": 2176,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P52-webcam02-P52_juice": {
+        "duration": 197,
+        "frame_length": 1968,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P52-webcam02-P52_milk": {
+        "duration": 69,
+        "frame_length": 687,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P52-webcam02-P52_pancake": {
+        "duration": 357,
+        "frame_length": 3569,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P52-webcam02-P52_salat": {
+        "duration": 311,
+        "frame_length": 3104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P52-webcam02-P52_sandwich": {
+        "duration": 179,
+        "frame_length": 1785,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P52-webcam02-P52_scrambledegg": {
+        "duration": 360,
+        "frame_length": 3597,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P52-webcam02-P52_tea": {
+        "duration": 63,
+        "frame_length": 628,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P53-cam01-P53_cereals": {
+        "duration": 57,
+        "frame_length": 567,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P53-cam01-P53_friedegg": {
+        "duration": 129,
+        "frame_length": 1285,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P53-cam01-P53_pancake": {
+        "duration": 259,
+        "frame_length": 2583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P53-cam01-P53_scrambledegg": {
+        "duration": 156,
+        "frame_length": 1553,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P53-webcam01-P53_cereals": {
+        "duration": 57,
+        "frame_length": 568,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P53-webcam01-P53_coffee": {
+        "duration": 57,
+        "frame_length": 568,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P53-webcam01-P53_friedegg": {
+        "duration": 129,
+        "frame_length": 1287,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P53-webcam01-P53_juice": {
+        "duration": 76,
+        "frame_length": 756,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P53-webcam01-P53_milk": {
+        "duration": 66,
+        "frame_length": 659,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P53-webcam01-P53_pancake": {
+        "duration": 259,
+        "frame_length": 2583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P53-webcam01-P53_salat": {
+        "duration": 111,
+        "frame_length": 1103,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P53-webcam01-P53_sandwich": {
+        "duration": 53,
+        "frame_length": 526,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P53-webcam01-P53_scrambledegg": {
+        "duration": 156,
+        "frame_length": 1553,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P53-webcam01-P53_tea": {
+        "duration": 49,
+        "frame_length": 482,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P53-cam02-P53_cereals": {
+        "duration": 57,
+        "frame_length": 568,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P53-cam02-P53_coffee": {
+        "duration": 57,
+        "frame_length": 568,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P53-cam02-P53_friedegg": {
+        "duration": 129,
+        "frame_length": 1285,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P53-cam02-P53_juice": {
+        "duration": 76,
+        "frame_length": 756,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P53-cam02-P53_milk": {
+        "duration": 66,
+        "frame_length": 659,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P53-cam02-P53_pancake": {
+        "duration": 259,
+        "frame_length": 2584,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P53-cam02-P53_salat": {
+        "duration": 111,
+        "frame_length": 1104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P53-cam02-P53_sandwich": {
+        "duration": 53,
+        "frame_length": 528,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P53-cam02-P53_scrambledegg": {
+        "duration": 156,
+        "frame_length": 1554,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P53-cam02-P53_tea": {
+        "duration": 49,
+        "frame_length": 482,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P53-stereo-P53_cereals_ch0": {
+        "duration": 57,
+        "frame_length": 568,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P53-stereo-P53_coffee_ch0": {
+        "duration": 57,
+        "frame_length": 568,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P53-stereo-P53_friedegg_ch0": {
+        "duration": 129,
+        "frame_length": 1285,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P53-stereo-P53_juice_ch0": {
+        "duration": 76,
+        "frame_length": 756,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P53-stereo-P53_milk_ch0": {
+        "duration": 66,
+        "frame_length": 659,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P53-stereo-P53_salat_ch0": {
+        "duration": 111,
+        "frame_length": 1104,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P53-stereo-P53_sandwich_ch0": {
+        "duration": 53,
+        "frame_length": 526,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P53-stereo-P53_scrambledegg_ch0": {
+        "duration": 156,
+        "frame_length": 1553,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P53-stereo-P53_tea_ch0": {
+        "duration": 49,
+        "frame_length": 482,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P53-webcam02-P53_cereals": {
+        "duration": 57,
+        "frame_length": 567,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P53-webcam02-P53_coffee": {
+        "duration": 57,
+        "frame_length": 569,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P53-webcam02-P53_friedegg": {
+        "duration": 129,
+        "frame_length": 1286,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P53-webcam02-P53_juice": {
+        "duration": 76,
+        "frame_length": 756,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P53-webcam02-P53_milk": {
+        "duration": 66,
+        "frame_length": 659,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P53-webcam02-P53_pancake": {
+        "duration": 259,
+        "frame_length": 2583,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P53-webcam02-P53_salat": {
+        "duration": 111,
+        "frame_length": 1103,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P53-webcam02-P53_sandwich": {
+        "duration": 53,
+        "frame_length": 526,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P53-webcam02-P53_scrambledegg": {
+        "duration": 156,
+        "frame_length": 1553,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P53-webcam02-P53_tea": {
+        "duration": 49,
+        "frame_length": 482,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P54-cam01-P54_cereals": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P54-cam01-P54_friedegg": {
+        "duration": 104,
+        "frame_length": 1040,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P54-cam01-P54_juice": {
+        "duration": 61,
+        "frame_length": 608,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P54-cam01-P54_pancake": {
+        "duration": 223,
+        "frame_length": 2230,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P54-cam01-P54_salat": {
+        "duration": 84,
+        "frame_length": 838,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P54-cam01-P54_sandwich": {
+        "duration": 68,
+        "frame_length": 678,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P54-cam01-P54_scrambledegg": {
+        "duration": 247,
+        "frame_length": 2463,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P54-webcam01-P54_cereals": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P54-webcam01-P54_coffee": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P54-webcam01-P54_friedegg": {
+        "duration": 104,
+        "frame_length": 1040,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P54-webcam01-P54_juice": {
+        "duration": 61,
+        "frame_length": 607,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P54-webcam01-P54_milk": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P54-webcam01-P54_pancake": {
+        "duration": 223,
+        "frame_length": 2230,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P54-webcam01-P54_scrambledegg": {
+        "duration": 247,
+        "frame_length": 2463,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P54-webcam01-P54_tea": {
+        "duration": 65,
+        "frame_length": 650,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P54-cam02-P54_cereals": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P54-cam02-P54_coffee": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P54-cam02-P54_friedegg": {
+        "duration": 104,
+        "frame_length": 1040,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P54-cam02-P54_juice": {
+        "duration": 61,
+        "frame_length": 607,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P54-cam02-P54_milk": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P54-cam02-P54_pancake": {
+        "duration": 223,
+        "frame_length": 2230,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P54-cam02-P54_salat": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P54-cam02-P54_scrambledegg": {
+        "duration": 247,
+        "frame_length": 2463,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P54-cam02-P54_tea": {
+        "duration": 65,
+        "frame_length": 649,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P54-stereo-P54_cereals_ch0": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P54-stereo-P54_coffee_ch0": {
+        "duration": 48,
+        "frame_length": 480,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P54-stereo-P54_friedegg_ch0": {
+        "duration": 104,
+        "frame_length": 1040,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P54-stereo-P54_juice_ch0": {
+        "duration": 61,
+        "frame_length": 607,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P54-stereo-P54_milk_ch0": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P54-stereo-P54_pancake_ch0": {
+        "duration": 223,
+        "frame_length": 2230,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P54-stereo-P54_salat_ch0": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P54-stereo-P54_sandwich_ch0": {
+        "duration": 68,
+        "frame_length": 678,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P54-stereo-P54_scrambledegg_ch0": {
+        "duration": 247,
+        "frame_length": 2463,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P54-stereo-P54_tea_ch0": {
+        "duration": 65,
+        "frame_length": 649,
+        "class_name": "tea",
+        "class_label": 2
+    },
+    "P54-webcam02-P54_cereals": {
+        "duration": 50,
+        "frame_length": 498,
+        "class_name": "cereal",
+        "class_label": 0
+    },
+    "P54-webcam02-P54_coffee": {
+        "duration": 48,
+        "frame_length": 481,
+        "class_name": "coffee",
+        "class_label": 1
+    },
+    "P54-webcam02-P54_friedegg": {
+        "duration": 104,
+        "frame_length": 1040,
+        "class_name": "fried egg",
+        "class_label": 4
+    },
+    "P54-webcam02-P54_juice": {
+        "duration": 61,
+        "frame_length": 607,
+        "class_name": "juice",
+        "class_label": 7
+    },
+    "P54-webcam02-P54_milk": {
+        "duration": 50,
+        "frame_length": 499,
+        "class_name": "milk",
+        "class_label": 8
+    },
+    "P54-webcam02-P54_pancake": {
+        "duration": 223,
+        "frame_length": 2230,
+        "class_name": "pancake",
+        "class_label": 3
+    },
+    "P54-webcam02-P54_salat": {
+        "duration": 84,
+        "frame_length": 836,
+        "class_name": "salat",
+        "class_label": 9
+    },
+    "P54-webcam02-P54_sandwich": {
+        "duration": 68,
+        "frame_length": 678,
+        "class_name": "sandwich",
+        "class_label": 6
+    },
+    "P54-webcam02-P54_scrambledegg": {
+        "duration": 247,
+        "frame_length": 2463,
+        "class_name": "scrambled egg",
+        "class_label": 5
+    },
+    "P54-webcam02-P54_tea": {
+        "duration": 65,
+        "frame_length": 649,
+        "class_name": "tea",
+        "class_label": 2
+    }
+}

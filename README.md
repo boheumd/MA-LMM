@@ -3,7 +3,7 @@
 The official repository of our paper "**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**".
 
 <p align="center">
-<img src="figs/teaser.png" alt="teaser" width="80%">
+<img src="figs/teaser.png" alt="teaser" width="60%">
 </p>
 
 
@@ -26,8 +26,8 @@ For the long-term video understanding task, we conduct experiments including ([L
 For the video question answering task, we conduct experiments including [MSRVTT](https://github.com/xudejing/video-question-answering), [MSVD](https://github.com/xudejing/video-question-answering), and [ActivityNet](https://github.com/MILVLG/activitynet-qa).
 For the video captioning task, we also conduct experiments on [Youcook2](http://youcook2.eecs.umich.edu/) dataset.
 
-We provide the pre-processed annotation in the following [Google Drive Link](https://drive.google.com/file/d/1hAqXwWnlBqVUMovfa5X2mKNiLAGXe5Qi/view?usp=sharing).
-Please download videos for each dataset first, then extract video frames of each video with fps=10.
+You can download videos for each dataset through the script provided here (lavis/datasets/download_scripts).
+Then extract video frames of each video with fps=10.
    ```
     ├── data
         └── activitynet
@@ -64,12 +64,25 @@ Please download videos for each dataset first, then extract video frames of each
 
 ## Running
 
+### Download Pre-trained LLM
+We use Vicuna-v1.1 as our pre-trained LLM weights, you can download from this [link](https://github.com/lm-sys/FastChat/blob/main/docs/vicuna_weights_version.md) as arrange in this format.
+   ```
+   ├── llm
+        ├── vicuna-7b
+        ├── vicuna-13b
+   ```
 ### Training
 We train the model on 4 A100 GPUs. To train the model on different dataset, please execute the following command:
 ```bash
 bash run_scripts/${dataset}/train.sh
 ```
-For the LVU dataset, please change the datasets.lvu_cls.task in one of the following task list ['director', 'genre', 'relationship', 'scene', 'way_speaking', 'writer', 'year']
+
+#### LVU dataset
+```bash
+    # Please choose the task from the list
+    # ['director', 'genre', 'relationship', 'scene', 'way_speaking', 'writer', 'year']
+    datasets.lvu_cls.task ${task}
+```
 
 ### Testing
 First, download the [saved_model.tar](https://drive.google.com/file/d/1mq6fg69Ofm32-1HjEunoFtPg8ymAIcOp/view?usp=sharing) and unzip it. 
@@ -86,6 +99,7 @@ One important hyper-parameters memory_bank_length, please change that in the tra
     # value=0 means without using the memory bank
 ```
 
+
 ## Citation
 If you find our code or our paper useful for your research, please **[★star]** this repo and **[cite]** the following paper:
 
@@ -100,7 +114,7 @@ If you find our code or our paper useful for your research, please **[★star]**
 
 
 ## Acknowledgement
-We referenced the repos below for the code
+We referenced the repo below for the code
 - [LAVIS](https://github.com/salesforce/LAVIS)
 
 

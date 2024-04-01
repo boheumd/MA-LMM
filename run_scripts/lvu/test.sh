@@ -26,5 +26,5 @@ torchrun --nproc_per_node=4 \
     run.evaluate True \
     run.valid_splits "['test']" \
     run.report_metric True \
-    run.prefix test \
+    run.prefix test
     # run.resume_ckpt_path

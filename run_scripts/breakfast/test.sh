@@ -22,5 +22,5 @@ torchrun --nproc_per_node=4 \
     run.seed 42 \
     run.evaluate True \
     run.report_metric True \
-    run.prefix test \
+    run.prefix test
     # run.resume_ckpt_path 

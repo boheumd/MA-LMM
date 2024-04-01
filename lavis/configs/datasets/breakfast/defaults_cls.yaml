@@ -17,5 +17,8 @@ datasets:
         val:
           url:  breakfast/annotation/val.json
           storage:  breakfast/annotation/val.json
+        test:
+          url:  breakfast/annotation/val.json
+          storage:  breakfast/annotation/val.json
       videos:
         storage: breakfast/frames
