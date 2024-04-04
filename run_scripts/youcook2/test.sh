@@ -1,3 +1,5 @@
+
+checkpoint_path=$1
 torchrun --nproc_per_node=4 \
     --master_port=34654 \
     train.py \
@@ -23,5 +25,6 @@ torchrun --nproc_per_node=4 \
     run.evaluate True \
     run.valid_splits "['val']" \
     run.report_metric True \
-    run.prefix test
-    # run.resume_ckpt_path
+    run.prefix test \
+    run.resume_ckpt_path ${checkpoint_path}
+

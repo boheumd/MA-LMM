@@ -23,6 +23,7 @@ pip install -e .
 
 ## Dataset
 For the long-term video understanding task, we conduct experiments including ([LVU](https://github.com/chaoyuaw/lvu)) and two standard video summarization datasets ([Breakfast](https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/), [COIN](https://coin-dataset.github.io/)).
+
 For the video question answering task, we conduct experiments including [MSRVTT](https://github.com/xudejing/video-question-answering), [MSVD](https://github.com/xudejing/video-question-answering), and [ActivityNet](https://github.com/MILVLG/activitynet-qa).
 For the video captioning task, we also conduct experiments on [Youcook2](http://youcook2.eecs.umich.edu/) dataset.
 
@@ -85,10 +86,10 @@ bash run_scripts/${dataset}/train.sh
 ```
 
 ### Testing
-First, download the [saved_model.tar](https://drive.google.com/file/d/1mq6fg69Ofm32-1HjEunoFtPg8ymAIcOp/view?usp=sharing) and unzip it. 
-Then for the test script of each dataset, pass the checkpoint path to run.resume_ckpt_path to run the evaluation.
+We provided trained checkpoints for each dataset, please download the [saved_model.tar](https://drive.google.com/file/d/1mq6fg69Ofm32-1HjEunoFtPg8ymAIcOp/view?usp=sharing) and unzip it. 
+Then for the test script of each dataset, pass the checkpoint path to run the evaluation.
 ```bash
-bash run_scripts/${dataset}/test.sh
+bash run_scripts/${dataset}/test.sh ${checkpoint_path}
 ```
 
 ### Hyper-parameters
@@ -99,6 +100,8 @@ One important hyper-parameters memory_bank_length, please change that in the tra
     # value=0 means without using the memory bank
 ```
 
+### Memory Bank Compression Code
+The core algorithm for the memory bank compression algorithm is [here](https://github.com/boheumd/MA-LMM/blob/main/lavis/models/blip2_models/blip2.py#L352).
 
 ## Citation
 If you find our code or our paper useful for your research, please **[★star]** this repo and **[cite]** the following paper:
@@ -106,7 +109,7 @@ If you find our code or our paper useful for your research, please **[★star]**
 ```latex
 @inproceedings{he2024malmm,
   title = {MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding},
-  author    = {He, Bo and Li, Hengduo and Jang, Young Kyun and Jia, Menglin and Cao, Xuefei and Shah, Ashish and Shrivastava, Abhinav and Ser-Nam, Lim},
+  author    = {He, Bo and Li, Hengduo and Jang, Young Kyun and Jia, Menglin and Cao, Xuefei and Shah, Ashish and Shrivastava, Abhinav and Lim, Ser-Nam},
   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2024}
 }
