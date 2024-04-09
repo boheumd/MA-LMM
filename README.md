@@ -1,5 +1,5 @@
 # (2024CVPR) MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding
-### [Project Page](https://boheumd.github.io/MA-LMM/) | [Paper](https://arxiv.org/abs/)
+### [Project Page](https://boheumd.github.io/MA-LMM/) | [Paper](https://arxiv.org/abs/2404.05726)
 The official repository of our paper "**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**".
 
 <p align="center">
