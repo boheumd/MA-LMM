@@ -1,7 +1,7 @@
 
 checkpoint_path=$1
 torchrun --nproc_per_node=4 \
-    --master_port=34652 \
+    --master_port=34650 \
     train.py \
     --cfg-path lavis/projects/malmm/qa_msrvtt.yaml \
     --options \

@@ -26,7 +26,6 @@ share/python-wheels/
 *.egg
 MANIFEST
 sbatch*
-sleep*
 logs*
 temp*
 scripts*
@@ -161,6 +160,5 @@ debug*/
 *.tsv
 *.gz
 
-cache/
 llm
 dataset

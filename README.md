@@ -2,6 +2,13 @@
 ### [Project Page](https://boheumd.github.io/MA-LMM/) | [Paper](https://arxiv.org/abs/2404.05726)
 The official repository of our paper "**MA-LMM: Memory-Augmented Large Multimodal Model for Long-Term Video Understanding**".
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ma-lmm-memory-augmented-large-multimodal/video-classification-on-breakfast)](https://paperswithcode.com/sota/video-classification-on-breakfast?p=ma-lmm-memory-augmented-large-multimodal)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ma-lmm-memory-augmented-large-multimodal/video-classification-on-coin-1)](https://paperswithcode.com/sota/video-classification-on-coin-1?p=ma-lmm-memory-augmented-large-multimodal)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ma-lmm-memory-augmented-large-multimodal/visual-question-answering-on-msvd-qa-1)](https://paperswithcode.com/sota/visual-question-answering-on-msvd-qa-1?p=ma-lmm-memory-augmented-large-multimodal)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ma-lmm-memory-augmented-large-multimodal/video-question-answering-on-msrvtt-qa)](https://paperswithcode.com/sota/video-question-answering-on-msrvtt-qa?p=ma-lmm-memory-augmented-large-multimodal)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ma-lmm-memory-augmented-large-multimodal/video-captioning-on-youcook2)](https://paperswithcode.com/sota/video-captioning-on-youcook2?p=ma-lmm-memory-augmented-large-multimodal)
+
+
 <p align="center">
 <img src="figs/teaser.png" alt="teaser" width="60%">
 </p>
@@ -72,25 +79,32 @@ We use Vicuna-v1.1 as our pre-trained LLM weights, you can download from this [l
         ├── vicuna-7b
         ├── vicuna-13b
    ```
-### Training
-We train the model on 4 A100 GPUs. To train the model on different dataset, please execute the following command:
+### Finetuning on Downstreaming Tasks
+Our model leverages pre-trained weights from [InstructBlip](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip), which was only pre-trained on image-text pairs. Our training process occurred on four A100 GPUs. If you would like to fine-tune the model for various video datasets, please run the following command:
 ```bash
 bash run_scripts/${dataset}/train.sh
 ```
 
 #### LVU dataset
 ```bash
-    # Please choose the task from the list
+    # Please choose the task from the following list
     # ['director', 'genre', 'relationship', 'scene', 'way_speaking', 'writer', 'year']
     datasets.lvu_cls.task ${task}
 ```
 
 ### Testing
-We provided trained checkpoints for each dataset, please download the [saved_model.tar](https://drive.google.com/file/d/1mq6fg69Ofm32-1HjEunoFtPg8ymAIcOp/view?usp=sharing) and unzip it. 
-Then for the test script of each dataset, pass the checkpoint path to run the evaluation.
+We also provided finetuned checkpoints for each video dataset. Please download the [saved_model.tar](https://drive.google.com/file/d/1mq6fg69Ofm32-1HjEunoFtPg8ymAIcOp/view?usp=sharing) and unzip it. 
+For the test script corresponding to each dataset, provide the path to the extracted checkpoint to execute the evaluation.
 ```bash
 bash run_scripts/${dataset}/test.sh ${checkpoint_path}
 ```
+
+### Zero-shot Evaluation
+Our model can also leverage pre-trained weights from [InstructBlip](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) without any finetuning to conduct zero-shot evaluation on video datasets.
+```bash
+bash run_scripts/${dataset}/test.sh
+```
+
 
 ### Hyper-parameters
 One important hyper-parameters memory_bank_length, please change that in the training script on different datasets.
