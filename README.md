@@ -19,6 +19,9 @@ The official repository of our paper "**MA-LMM: Memory-Augmented Large Multimoda
 <img src="figs/architecture.png" alt="model" width="80%">
 </p>
 
+## Demo
+You can explore our demo by running `demo.ipynb`. This demonstration illustrates how our MA-LMM serves as a plug-and-play module that can be integrated into InstructBLIP seamlessly, requiring no fine-tuning for zero-shot evaluation.
+
 ## Requirements
 
 You can install the conda environment by running:

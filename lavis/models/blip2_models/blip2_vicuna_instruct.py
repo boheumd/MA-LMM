@@ -107,6 +107,7 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
         self.num_query_token = num_query_token
         self.memory_bank_length = memory_bank_length
         self.use_memory_bank = True if memory_bank_length > 0 else False
+        self.num_frames = num_frames
         self.visual_memory_bank = None
         self.image_pe = nn.Embedding(120, 1408)
         nn.init.constant_(self.image_pe.weight, 0.0)
