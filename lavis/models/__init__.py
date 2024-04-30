@@ -173,7 +173,7 @@ def load_preprocess(config):
     return vis_processors, txt_processors
 
 
-def load_model_and_preprocess(name, model_type, is_eval=False, device="cpu"):
+def load_model_and_preprocess(name, model_type, is_eval=False, device="cpu", memory_bank_length=0, num_frames=0):
     """
     Load model and its related preprocessors.
 
@@ -195,7 +195,7 @@ def load_model_and_preprocess(name, model_type, is_eval=False, device="cpu"):
     model_cls = registry.get_model_class(name)
 
     # load model
-    model = model_cls.from_pretrained(model_type=model_type)
+    model = model_cls.from_pretrained(model_type=model_type, memory_bank_length=memory_bank_length, num_frames=num_frames)
 
     if is_eval:
         model.eval()
