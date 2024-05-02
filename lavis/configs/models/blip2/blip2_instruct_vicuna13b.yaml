@@ -28,6 +28,7 @@ model:
   prompt: ""
   memory_bank_length: 10
   num_frames: 20
+  max_num_frames: 120
 
 preprocess:
   vis_processor:

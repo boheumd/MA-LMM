@@ -39,6 +39,7 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
         qformer_text_input=True,
         memory_bank_length=0,
         num_frames=0,
+        max_num_frames=120,
     ):
         super().__init__()
         transformers_version = version.parse(transformers.__version__)
@@ -109,7 +110,7 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
         self.use_memory_bank = True if memory_bank_length > 0 else False
         self.num_frames = num_frames
         self.visual_memory_bank = None
-        self.image_pe = nn.Embedding(120, 1408)
+        self.image_pe = nn.Embedding(max_num_frames, 1408)
         nn.init.constant_(self.image_pe.weight, 0.0)
 
     def concat_text_input_output(self, input_ids, input_atts, output_ids, output_atts):
@@ -780,6 +781,7 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
         llm_model = cfg.get("llm_model")
         memory_bank_length = cfg.get("memory_bank_length", 0)
         num_frames = cfg.get("num_frames", 0)
+        max_num_frames = cfg.get("max_num_frames", 120)
 
         drop_path_rate = cfg.get("drop_path_rate", 0)
         use_grad_checkpoint = cfg.get("use_grad_checkpoint", False)
@@ -810,6 +812,7 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
             qformer_text_input=qformer_text_input,
             memory_bank_length=memory_bank_length,
             num_frames=num_frames,
+            max_num_frames=max_num_frames,
         )
 
         # if qformer_text_input:
