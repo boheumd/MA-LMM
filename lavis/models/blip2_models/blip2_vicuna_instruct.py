@@ -149,7 +149,6 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
         if image.dim() == 5:
             is_video = True
             B, C, T, H, W = image.shape
-            # image = image.permute(0, 2, 1, 3, 4).reshape(B * T, C, H, W)
 
         if self.qformer_text_input:
             if is_video:
@@ -221,6 +220,11 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
                 query_atts = torch.ones(query_tokens.size()[:-1], dtype=torch.long).to(image.device)
                 Qformer_atts = torch.cat([query_atts, text_Qformer.attention_mask], dim=1)
 
+                if is_video:
+                    image = image.permute(0, 2, 1, 3, 4).reshape(B * T, C, H, W)
+                with self.maybe_autocast():
+                    image_embeds = self.ln_vision(self.visual_encoder(image)) #[B * T, 256+1, 1408]
+                image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(image.device)
                 query_output = self.Qformer.bert(
                     text_Qformer.input_ids,
                     attention_mask=Qformer_atts,
@@ -230,6 +234,11 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
                     return_dict=True,
                 )
         else:
+            if is_video:
+                image = image.permute(0, 2, 1, 3, 4).reshape(B * T, C, H, W)
+            with self.maybe_autocast():
+                image_embeds = self.ln_vision(self.visual_encoder(image)) #[B * T, 256+1, 1408]
+            image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(image.device)
             query_tokens = self.query_tokens.expand(B * T, -1, -1)
             query_output = self.Qformer.bert(
                 query_embeds=query_tokens,
@@ -409,6 +418,12 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
                 ).to(image.device)
                 query_atts = torch.ones(query_tokens.size()[:-1], dtype=torch.long).to(image.device)
                 Qformer_atts = torch.cat([query_atts, text_Qformer.attention_mask], dim=1)
+
+                if is_video:
+                    image = image.permute(0, 2, 1, 3, 4).reshape(B * T, C, H, W)
+                with self.maybe_autocast():
+                    image_embeds = self.ln_vision(self.visual_encoder(image)) #[B * T, 256+1, 1408]
+                image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(image.device)
                 query_output = self.Qformer.bert(
                     text_Qformer.input_ids,
                     attention_mask=Qformer_atts,
@@ -418,6 +433,11 @@ class Blip2VicunaInstruct_MALMM(Blip2Base):
                     return_dict=True,
                 )
         else:
+            if is_video:
+                image = image.permute(0, 2, 1, 3, 4).reshape(B * T, C, H, W)
+            with self.maybe_autocast():
+                image_embeds = self.ln_vision(self.visual_encoder(image)) #[B * T, 256+1, 1408]
+            image_atts = torch.ones(image_embeds.size()[:-1], dtype=torch.long).to(image.device)
             query_tokens = self.query_tokens.expand(B * T, -1, -1)
             query_output = self.Qformer.bert(
                 query_embeds=query_tokens,
