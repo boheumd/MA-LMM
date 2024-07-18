@@ -31,6 +31,20 @@ cd MA-LMM
 pip install -e .
 ```
 
+If you are running the code on Apple Silicon, you need to use `eva-decord` instead of `decord`. Here is the modification in the `requirements.txt` file you should do:
+
+```text
+contexttimer
+eva-decord
+einops>=0.4.1
+fairscale==0.4.4
+...
+
+```
+
+**Before running `pip install -e .`, ensure you have the correct requirements:**
+
+
 ## Dataset
 For the long-term video understanding task, we conduct experiments including ([LVU](https://github.com/chaoyuaw/lvu)) and two standard video summarization datasets ([Breakfast](https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/), [COIN](https://coin-dataset.github.io/)).
 
