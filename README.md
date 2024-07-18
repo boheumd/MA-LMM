@@ -39,11 +39,9 @@ eva-decord
 einops>=0.4.1
 fairscale==0.4.4
 ...
-
 ```
 
-**Before running `pip install -e .`, ensure you have the correct requirements:**
-
+**Before running `pip install -e .`, ensure you have the correct requirements.**
 
 ## Dataset
 For the long-term video understanding task, we conduct experiments including ([LVU](https://github.com/chaoyuaw/lvu)) and two standard video summarization datasets ([Breakfast](https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/), [COIN](https://coin-dataset.github.io/)).
